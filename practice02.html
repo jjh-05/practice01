@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+   <fieldset>
+    <legend>납품자 정보</legend>
+    <label for="name">1. 납품자 명 :</label>
+    <input type="text" name="name" id="name">
+    <br><br>
+    <label for="email">2. E-mail :</label>
+    <input type="text" name="email" id="email" placeholder="answer@naver.com">
+    <br><br>
+    <label for="homepage">3. 홈페이지 :</label>
+    <input type="text" name="homepage" id="homepage" value="http://">
+    <br><br>
+    4. 지역 :
+    <select name="region" id="ragion">
+        <option value="Seoul">서울</option>
+        <option value="Daejeon">대전</option>
+        <option value="Daegu">대구</option>
+        <option value="Busan">부산</option>
+    </select>
+   </fieldset>
+   <fieldset>
+    <legend>납품 정보</legend>
+    <label for="name">1. 상품명 :</label>
+    <input type="text" name="name" id="name">
+    <br><br>
+    <label for="num">2. 납품수량 :</label>
+    <input type="number" name="num" id="num" placeholder="최소 100">
+    <br><br>
+    <label for="bar">3. 납품등급 :</label>
+    <input type="range" name="bar" id="bar">
+    <br><br><br>
+    <label for="quick">기타사항 : </label>
+    <textarea name="quick" id="quick" cols="10" rows="10"></textarea>
+   </fieldset>
+   <button>send message</button>
+</body>
+</html>
